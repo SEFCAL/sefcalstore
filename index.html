@@ -360,7 +360,44 @@
     color:#fff;
     box-shadow:0 10px 30px rgba(0,130,243,.25);
 }
+.camera-section-title{
+    width:100%;
+    display:block;
+    text-align:center;
+    padding:20px;
+    margin:30px 0;
+    font-size:28px;
+    font-weight:900;
+    color:#fff;
+
+    background:linear-gradient(90deg,#0082f3,#ff2e95);
+
+    border-radius:20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,130,243,.35),
+        0 10px 30px rgba(255,46,149,.25);
+}
         
+
+.intro-images{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-bottom:30px;
+}
+
+.intro-images img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:24px;
+    background:#111;
+    padding:8px;
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
 @media (max-width: 768px) {
 
     .original-group-image img {
@@ -450,10 +487,13 @@
         <section id="products">
             <h2 class="original-title">منظمات الجهد</h2>
             
-            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
-                <img src="1a.png" alt="Stabilizer intro" style="max-width: 220px; width: 100%; border-radius: 24px; border: 1px solid #2e2e2e; background: #111; padding: 0.3rem;" onerror="this.onerror=null; this.src='https://placehold.co/220x160/1a1a1a/0082f3?text=1A';">
-                <img src="2a.png" alt="Stabilizer intro 2" style="max-width: 220px; width: 100%; border-radius: 24px; border: 1px solid #2e2e2e; background: #111; padding: 0.3rem;" onerror="this.onerror=null; this.src='https://placehold.co/220x160/1a1a1a/ff2e95?text=2A';">
-            </div>
+           <div class="intro-images">
+    <img src="1A.PNG" alt="Stabilizer intro"
+         onerror="this.onerror=null; this.src='https://placehold.co/600x400/1a1a1a/0082f3?text=1A';">
+
+    <img src="2A.PNG" alt="Stabilizer intro 2"
+         onerror="this.onerror=null; this.src='https://placehold.co/600x400/1a1a1a/ff2e95?text=2A';">
+</div>
 
       <div class="original-group-card">
     <div class="product-title">ES-2K Family</div>
@@ -621,9 +661,9 @@
     </div>
 </div>
             <div class="cameras-showcase">
-             <h3 style="color:var(--primary-pink); margin-bottom: 1.2rem; text-align: center;">
+<div class="camera-section-title">
     📹 كاميرات المراقبة (Smart Security)
-</h3>
+</div>
                 <div class="camera-banner-img">
                     <img src="1s.png" alt="Camera 1S" class="banner-img" onerror="this.onerror=null; this.src='https://placehold.co/180x120/1a1a1a/0082f3?text=1S';">
                     <img src="2s.png" alt="Camera 2S" class="banner-img" onerror="this.onerror=null; this.src='https://placehold.co/180x120/1a1a1a/ff2e95?text=2S';">
